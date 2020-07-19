@@ -1,3 +1,5 @@
+#!/bin/python3
+
 from ipaddress import IPv4Address
 from time import sleep
 from pyairmore.request import AirmoreSession

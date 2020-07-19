@@ -1,3 +1,5 @@
+#!/bin/python3
+
 from ipaddress import IPv4Address
 from pyairmore.request import AirmoreSession
 from pyairmore.services.messaging import MessagingService
