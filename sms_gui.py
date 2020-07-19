@@ -133,6 +133,7 @@ class Ui_MainWindow(object):
                     self.progressBar.setValue(percent)
                     self.message_send_status.append("message %i sended" %c )
                     self.sended_lcd.display(c)
+                    sleep(1)
             except:
                 self.message_send_status.append("the message not send. check the information.")
         except:
