@@ -112,7 +112,7 @@ class Ui_MainWindow(object):
             if session.is_server_running:
                 self.status_connection.append("server is up")
             if session.request_authorization():
-                self.status_connection.append("you`r connect to phone")
+                self.status_connection.append("you are connect to phone")
         except:
             self.status_connection.append("check the connection")
 
