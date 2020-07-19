@@ -123,12 +123,12 @@ class Ui_MainWindow(object):
             ip4 = IPv4Address(ip)
             phone_number = str(self.number_input.text())
             count_massage = int(self.count_input.text())
-            massage = str(self.content_input.text())
+            message = str(self.content_input.toPlainText())
             session = AirmoreSession(ip4 ,port)
             service = MessagingService(session)
             try :
                 for c in range(1,count_massage+1):
-                    service.send_message(phone_number, massage)
+                    service.send_message(phone_number, message)
                     percent = (c/count_massage)*100
                     self.progressBar.setValue(percent)
                     self.message_send_status.append("message %i sended" %c )
