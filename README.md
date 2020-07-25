@@ -1,6 +1,6 @@
 # sms sender
 
-this program will send sms frome your computer with use your phone by aiemore app in android device
+this program will send sms frome your computer with use your phone by airmore app in android device
 
 1 - you need to install airmore on your mobile phone .
 2 - connect your phone to a same wirless .
